@@ -2,7 +2,11 @@
 
 <p align="center">
   <a href="https://sitewarm.dev">
-    <img src="https://sitewarm.dev/brand/sitewarm-lockup-light.svg" alt="sitewarm" width="320">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://sitewarm.dev/brand/sitewarm-lockup-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://sitewarm.dev/brand/sitewarm-lockup-light.svg">
+      <img src="https://sitewarm.dev/brand/sitewarm-lockup-light.svg" alt="sitewarm" width="320">
+    </picture>
   </a>
 </p>
 
